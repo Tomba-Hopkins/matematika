@@ -1,0 +1,38 @@
+:root {
+    --blek-primary: #0F1035;
+    --whit-primary: #DCF2F1;
+    --whit-secondary: #7FC7D9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--blek-primary);
+    color: var(--whit-primary);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headline {
+    text-align: center;
+    margin: 3rem 0;
+    background-image: linear-gradient(to right, var(--whit-primary), var(--whit-secondary));
+    background-clip: text;
+    color: transparent;
+}
+
+.deret {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.deret input {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
