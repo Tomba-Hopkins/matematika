@@ -12,6 +12,10 @@ const rumusSequences = (suku, nilaiSuku, beda, sukuN) => {
     if(suku == 1) {
         return  nilaiSuku + (sukuN - 1) * beda
     }
+
+    let tempA = nilaiSuku - (suku - 1) * beda  
+    console.log(tempA, suku, beda, nilaiSuku)
+    return tempA + (sukuN - 1) * beda
 }
 
 
