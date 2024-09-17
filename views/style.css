@@ -36,3 +36,33 @@ body {
     border-radius: 0.3rem;
     padding: 0.2rem;
 }
+
+.deret button {
+    width: 7rem;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    background-color: var(--whit-primary);
+    color: var(--blek-primary);
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.deret button:hover {
+    background-color: var(--whit-secondary);
+    color: var(--whit-primary);
+}
+
+.deret button:active{
+    animation: scale 0.2s ease;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+    
+}

@@ -11,15 +11,20 @@
 
     <div class="deret">
         <h2>Matematika deret (sequences)</h2>
-        <label for="">Suku Diketahui</label>
-        <input type="text" class="suku-diketahui">
-        <label for="">Nilai dari suku yang Diketahui</label>
-        <input type="text" class="nilai-suku-diketahui">
-        <label for="">Beda</label>
-        <input type="text" class="beda">
-        <label for="">Mencari suku ke :</label>
-        <input type="text" class="suku-n">
+        <label for="s-know">Suku awal(1) / Diketahui</label>
+        <input type="number" class="suku-diketahui" id="s-know" placeholder="1">
+
+        <label for="n-know">Nilai awal / dari suku yang Diketahui</label>
+        <input type="number" class="nilai-suku-diketahui"  id="n-know" placeholder="0">
+
+        <label for="b">Beda</label>
+        <input type="number" class="beda" id="b">
+
+        <label for="n">Mencari suku ke :</label>
+        <input type="number" class="suku-n" id="n">
+
         <button>Result</button>
+        <p>Hasil: <span class="result"></span></p>
     </div>
 </body>
 </html>
