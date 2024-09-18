@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     box-sizing: border-box;
     background-color: var(--blek-primary);
     color: var(--whit-primary);
@@ -28,6 +28,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    border-top: 0.3rem solid var(--whit-secondary);
 }
 
 .deret input {
